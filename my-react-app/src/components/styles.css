@@ -1,0 +1,21 @@
+.sideblock {
+  flex: 30%;
+  background-color: #86a3b4;
+  box-shadow: 5px 0px 5px rgb(189, 189, 189);
+  z-index: 1;
+}
+
+.mainblock {
+  flex: 70%;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.img {
+  width: 200px;
+  margin-left: 40px;
+}
+
+.contact {
+  margin-left: 40px;
+}
