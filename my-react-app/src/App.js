@@ -2,6 +2,7 @@ import React from "react"
 import Image from "./components/Image"
 import ContactInfo from "./components/ContactInfo"
 import Experience from "./components/Experience"
+import GithubRepos from "./components/GithubRepos"
 import "./App.css"
 
 const Resume = () => {
@@ -13,6 +14,7 @@ const Resume = () => {
       </div>
       <div className="mainblock">
         <Experience />
+        <GithubRepos />
       </div>
     </div>
   )
